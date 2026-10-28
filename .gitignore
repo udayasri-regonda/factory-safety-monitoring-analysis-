@@ -1,0 +1,21 @@
+output/
+__pycache__/
+*.pyc
+*.sqlite-journal
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db	

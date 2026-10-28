@@ -1,0 +1,10 @@
+{
+  "source_name": "EXAMPLE_HISTORIAN_EXPORT (simulated vendor layout)",
+  "fields": {
+    "alarm_event_id": "EvtId", "machine_id": "Asset", "alarm_def_id": "AlarmRef", "interlock_id": "InterlockRef",
+    "event_ts": "RaisedLocal", "clear_ts": "ClearedLocal", "machine_state": "MachineMode", "interlock_state": "InterlockStatus",
+    "source_system": "SourceSys", "ingest_batch_id": "Batch", "ingested_ts": "LoadedAt"
+  },
+  "defaults": {"source_system": "EXAMPLE_HISTORIAN"},
+  "timestamp": {"formats": ["%d/%m/%Y %H:%M:%S"], "source_timezone": "+05:30"}
+}

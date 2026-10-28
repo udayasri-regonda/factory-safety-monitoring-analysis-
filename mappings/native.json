@@ -1,0 +1,11 @@
+{
+  "source_name": "native",
+  "fields": {
+    "alarm_event_id": "alarm_event_id", "alarm_def_id": "alarm_def_id", "machine_id": "machine_id", "zone_id": "zone_id",
+    "interlock_id": "interlock_id", "event_ts": "event_ts", "clear_ts": "clear_ts", "machine_state": "machine_state",
+    "interlock_state": "interlock_state", "source_system": "source_system", "ingest_batch_id": "ingest_batch_id",
+    "ingested_ts": "ingested_ts", "content_hash": "content_hash"
+  },
+  "defaults": {},
+  "timestamp": {"formats": [], "source_timezone": "UTC"}
+}
